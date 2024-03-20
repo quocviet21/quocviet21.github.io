@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>HINH TRON</h1>
+</head>
+<body>
+    <input type="text" id="bankinh"placeholder="bankinh">
+    <button onclick="dientich ()">dientich</button>
+    <button onclick="chuvi ()">chuvi</button>
+</body>
+<script>
+    function dientich () {
+    var bankinh = document.getElementById('bankinh').value;
+    alert (bankinh*bankinh*3.14);
+    }
+    function chuvi () {
+        var bankinh = document.getElementById('bankinh').value;
+        alert (bankinh*2*3.14 ) ;
+    }
+</script>
+</html>
