@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>HINH CHU NHAT</h1>
+</head>
+<body>
+    <input type="text" id="chieudai"placeholder="chieudai">
+    <input type="text" id="chieurong"placeholder="chieurong">
+    <button onclick="dientich ()">dientich</button>
+    <button onclick="chuvi ()">chuvi</button>
+</body>
+<script>
+    function dientich () {
+    var chieudai = document.getElementById('chieudai').value;
+    var chieurong = document.getElementById('chieurong').value;
+    alert (chieudai*chieurong);
+    }
+    function chuvi () {
+        var chieudai = document.getElementById('chieudai').value;
+        var chieurong = document.getElementById('chieurong').value;
+        alert (chieudai*2 + chieurong*2 ) ;
+    }
+</script>
+</html>
